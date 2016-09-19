@@ -1,0 +1,8 @@
+<% @recipients.each do |recipient| %>
+  <div>
+    <h1><%= recipient.name %></h1><br>
+    <i><%= recipient.address %></i><br>
+    <p><%= recipient.notes %></p><br>
+  </div>
+  <hr>
+<% end %>
