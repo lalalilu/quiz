@@ -1,1 +1,12 @@
-<h1>Enter Your Recipient Details</h1>
+<div class="booyah-box col-xs-10 col-xs-offset-1">
+  <h1>Enter Your Recipient Details</h1>
+
+  <%= simple_form_for @recipient do |f| %>
+    <%= f.input :name %>
+    <%= f.input :address %>
+    <%= f.input :notes %>
+    <br>
+    <%= f.button :submit %>
+  <% end %>
+
+</div>

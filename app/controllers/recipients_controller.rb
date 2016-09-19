@@ -5,7 +5,7 @@ class RecipientsController < ApplicationController
   end
 
   def new
-
+    @recipient = Recipient.new
   end
 
 end
