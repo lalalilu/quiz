@@ -1,7 +1,11 @@
 class RecipientsController < ApplicationController
 
   def index
-    @recipents = Recipient.all
+    @recipients = Recipient.all
   end
-  
+
+  def new
+
+  end
+
 end
